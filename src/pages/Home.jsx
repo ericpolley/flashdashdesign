@@ -37,14 +37,7 @@ export default function Home() {
          {/* ICON End */}
          <p className=" lg-text-xl md-text-sm  font-semibold">Illustration</p> </div>
                           {/* ICON */}
-      {/* ICON */}
-      <div class="flex-col">
-      <Link to="/game">
-        <img src="https://github.com/ericpolley/flashdashdesign/blob/main/src/images/1game.png?raw=true"
-        className='lg:w-32 lg:h-32 sm:w-28 w-16 h-auto object-cover hover:bg-orange-400 rounded-full cursor-pointer border-4 border-t-8 border-orange-600'
-         alt="Linkedin"></img></Link>
-         {/* ICON End */}
-         <p className=" lg-text-xl md-text-sm  font-semibold">Games</p> </div>
+
          {/* ICON */}
          <div class="flex-col">
       <Link to="/software">
@@ -54,6 +47,24 @@ export default function Home() {
          {/* ICON End */}
          <p className=" lg-text-xl md-text-sm font-semibold">Web Dev</p> </div>
 
+               {/* ICON */}
+      <div class="flex-col">
+      <Link to="/game">
+        <img src="https://github.com/ericpolley/flashdashdesign/blob/main/src/images/1game.png?raw=true"
+        className='lg:w-32 lg:h-32 sm:w-28 w-16 h-auto object-cover hover:bg-orange-400 rounded-full cursor-pointer border-4 border-t-8 border-orange-600'
+         alt="Linkedin"></img></Link>
+         {/* ICON End */}
+         <p className=" lg-text-xl md-text-sm  font-semibold">Games</p> </div>
+
+          {/* ICON */}   
+          <div class="flex-col">
+      <Link to="/tutorials">
+        <img src="https://github.com/ericpolley/flashdashdesign/blob/main/src/images/1tutorial.png?raw=true"
+        className='lg:w-32 lg:h-32 sm:w-28 w-16 h-auto object-cover object-center hover:bg-orange-400 rounded-full cursor-pointer  border-4 border-t-8 border-orange-600'
+         alt="Linkedin"></img></Link>
+         {/* ICON End */}
+         <p className=" lg-text-xl md-text-sm  font-semibold">Tutorials</p> </div>
+
          {/* ICON */}
          <div class="flex-col justify-center">
                                    <Link to="/blog">
@@ -62,14 +73,7 @@ export default function Home() {
          alt="Linkedin"></img></Link>
          {/* ICON End */}
          <p className=" lg-text-xl md-text-sm  font-semibold">Blog</p> </div>
-              {/* ICON */}   
-                          <div class="flex-col">
-      <Link to="/tutorials">
-        <img src="https://github.com/ericpolley/flashdashdesign/blob/main/src/images/1tutorial.png?raw=true"
-        className='lg:w-32 lg:h-32 sm:w-28 w-16 h-auto object-cover object-center hover:bg-orange-400 rounded-full cursor-pointer  border-4 border-t-8 border-orange-600'
-         alt="Linkedin"></img></Link>
-         {/* ICON End */}
-         <p className=" lg-text-xl md-text-sm  font-semibold">Tutorials</p> </div>
+    
 
 
 
