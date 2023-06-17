@@ -70,6 +70,7 @@ export default function Header() {
     <p> <Link to="/game" className=' mr-3 focus:text-orange-400 text-orange-900 hover:text-orange-300'><span>Games</span></Link></p>
     <p> <Link to="/software" className=' mr-3 focus:text-orange-400 text-orange-900 hover:text-orange-300'><span>Web Development</span></Link></p>
     <p> <Link to="/animation" className=' mr-3 focus:text-orange-400 text-orange-900 hover:text-orange-300'><span>Animation</span></Link></p>
+    <p> <Link to="/graphics" className=' mr-3 focus:text-orange-400 text-orange-900 hover:text-orange-300'><span>Graphics</span></Link></p>
     <p> <Link to="/tutorials" className=' mr-3 focus:text-orange-400 text-orange-900 hover:text-orange-300'><span>Tutorials</span></Link></p>
     <p> <Link to="/blog" className=' mr-3 focus:text-orange-400 text-orange-900 hover:text-orange-300'><span>Blog</span></Link></p>
     <p> <Link to="/about" className=' mr-3 focus:text-orange-400 text-orange-900 hover:text-orange-300'><span>About</span></Link></p>

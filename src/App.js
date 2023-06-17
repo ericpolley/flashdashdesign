@@ -7,7 +7,6 @@ import About from './pages/About';
 import Blog from './pages/Blog';
 import Contact from './pages/Contact';
 import Home from './pages/Home';
-import Videos from './pages/Videos';
 import Blog001 from "./pages/Blogs/Blog001";
 
 import SoftwarePortfolio from './pages/SoftwarePortfolio';
@@ -15,6 +14,7 @@ import GamePortfolio from './pages/GamePortfolio';
 import AnimationPortfolio from './pages/AnimationPortfolio';
 import Tutorials from './pages/Tutorials';
 import Footer from './components/Footer';
+import Graphics from './pages/graphics';
 
 
 
@@ -35,7 +35,7 @@ function App() {
     <Route exact path="/portfolio" element={<SoftwarePortfolio />} />
     <Route exact path="/game" element={<GamePortfolio />} />
     <Route exact path="/animation" element={<AnimationPortfolio />} />
-    <Route exact path="/news" element={<Videos />} />
+    <Route exact path="/graphics" element={<Graphics />} />
     <Route exact path="/tutorials" element={<Tutorials />} />
     <Route exact path="/blog/001" element={<Blog001 />} />
    
