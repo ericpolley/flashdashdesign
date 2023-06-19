@@ -42,7 +42,7 @@ export default function Contact() {
          {/* Social media End */}
 
 </div>
-      <a href="mailto:ericpolley@live.com" target="_blank" rel="noreferrer" className='focus:text-blue-400 text-blue-700 hover:text-blue-300 m-2'><p>ericpolley@live.com</p></a>
+      <a href="mailto:ericpolley@live.com" target="_blank" rel="noreferrer" className='focus:text-orange-400 text-orange-600 hover:text-orange-500 m-2'><p>ericpolley@live.com</p></a>
       <p className='m-4'>(509)868-2692</p>
       <p className='m-4'>Discord: erpolley#5318</p>
 

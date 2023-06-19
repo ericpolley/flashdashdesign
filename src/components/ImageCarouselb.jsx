@@ -30,7 +30,7 @@ const ImageCarouselb = ({ images }) => {
       >
         &lt;
       </button>
-      <Link to="/animation">
+      <Link to="/contact">
       <img className="w-[60vw] lg:w-[25vw] border-8 border-orange-500 bg-orange-300 hover:bg-orange-50 rounded-md object-cover" src={images[currentImageIndex]} alt="" />
       </Link>
       <button
