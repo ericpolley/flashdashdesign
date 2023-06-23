@@ -7,7 +7,9 @@ export default function Home() {
     <div className='w-full text-center flex flex-col items-center justify-center '>
       <h1 className='text-2xl font-medium mt-4 hidden'>Eric Polley - Software Engineer, Animator, Game Designer, Jack of all hats</h1>
 
-       
+       <div className='flex flex-row'>
+        <img src="" alt="" srcset="" />
+       </div>
 <div className='flex flex-col lg:flex-row justify-center items-center w-full'>
       <iframe className="shadow-xl mb-4 w-[85vw] h-[290px] md:h-[350px] md:w-[70vw] lg:w-[50vw] lg:h-[28vw] border-8 rounded-xl border-orange-600" width="560" height="235" src="https://www.youtube.com/embed/LMcQgn61gfE" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
      
@@ -19,7 +21,7 @@ export default function Home() {
 
 
              {/* ICON LINKS TO PORTFOLIOS */}
-
+<div className='flex flex-col md:flex-row'>
           {/* ICON */}
           <div class="flex-col">
       <Link to="/animation">
@@ -35,7 +37,7 @@ export default function Home() {
         className='lg:w-32 lg:h-32 sm:w-28 w-16 h-auto object-cover object-center hover:bg-orange-400 rounded-full cursor-pointer  border-4 border-t-8 border-orange-600'
          alt="Linkedin"></img></Link>
          {/* ICON End */}
-         <p className=" lg-text-xl md-text-sm  font-semibold">Illustration</p> </div>
+         <p className=" lg-text-xl md-text-sm  font-semibold">Graphics</p> </div>
                           {/* ICON */}
 
          {/* ICON */}
@@ -46,7 +48,8 @@ export default function Home() {
          alt="Linkedin"></img></Link>
          {/* ICON End */}
          <p className=" lg-text-xl md-text-sm font-semibold">Web Dev</p> </div>
-
+         </div>
+         <div className='flex flex-col md:flex-row'>
                {/* ICON */}
       <div class="flex-col">
       <Link to="/game">
@@ -73,6 +76,8 @@ export default function Home() {
          alt="Linkedin"></img></Link>
          {/* ICON End */}
          <p className=" lg-text-xl md-text-sm  font-semibold">Blog</p> </div>
+
+         </div>
     
 
 

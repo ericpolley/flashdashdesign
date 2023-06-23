@@ -11,7 +11,7 @@ const ImgCarb = () => {
   ];
 
   return (
-    <div className=" p-8 m-2">
+    <div className="">
       
       <ImageCarouselb images={images} />
     </div>

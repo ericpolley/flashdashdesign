@@ -7,7 +7,6 @@ const ImgCar = () => {
     'https://github.com/ericpolley/flashdashdesign/blob/main/src/images/Blue%20lawncare%20001.png?raw=true',
     'https://github.com/ericpolley/flashdashdesign/blob/main/src/images/paintbrush%20painting%20co%20001.png?raw=true',
     'https://github.com/ericpolley/flashdashdesign/blob/main/src/images/leanGreenAirducts%20001.png?raw=true',
-    'https://github.com/ericpolley/flashdashdesign/blob/main/src/images/lighting%20Logo%20001.png?raw=true',
     
 
   ];

@@ -10,14 +10,14 @@ export default function Graphics() {
       <div className='flex flex-col lg:flex-row w-full justify-center items-center'>
 
 {/* CARD START */}
-      <div className=' flex flex-col w-full lg:w-[48%] h-[560px]  items-center justify-center text-black bg-orange-400 lg:mr-6 rounded-xl border-4 border-orange-500 mt-4'>
+      <div className=' flex flex-col w-full lg:w-[48%] h-[400px] lg:h-[500px]  items-center justify-center text-black bg-orange-400 lg:mr-6 rounded-xl border-4 border-orange-500 mt-4'>
         
       <ImgCar />
 
       </div>
       {/* CARD END */}
       {/* CARD START */}
-      <div className=' flex flex-col w-full lg:w-[48%] h-[560px]  items-center justify-center text-black bg-orange-400 lg:mr-6 rounded-xl border-4 border-orange-500 mt-4'>
+      <div className=' flex flex-col w-full lg:w-[48%] h-[400px] lg:h-[500px]  items-center justify-center text-black bg-orange-400 lg:mr-6 rounded-xl border-4 border-orange-500 mt-4'>
         
       <ImgCarb />
    
