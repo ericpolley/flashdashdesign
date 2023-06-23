@@ -7,8 +7,8 @@ export default function Home() {
     <div className='w-full text-center flex flex-col items-center justify-center '>
       <h1 className='text-2xl font-medium mt-4 hidden'>Eric Polley - Software Engineer, Animator, Game Designer, Jack of all hats</h1>
 
-       <div className='flex flex-row'>
-        <img src="" alt="" srcset="" />
+       <div className='flex flex-row mb-4'>
+        <img src="https://github.com/ericpolley/flashdashdesign/blob/main/src/images/flashdash-Banner-001-orange.gif?raw=true" alt="banner" />
        </div>
 <div className='flex flex-col lg:flex-row justify-center items-center w-full'>
       <iframe className="shadow-xl mb-4 w-[85vw] h-[290px] md:h-[350px] md:w-[70vw] lg:w-[50vw] lg:h-[28vw] border-8 rounded-xl border-orange-600" width="560" height="235" src="https://www.youtube.com/embed/LMcQgn61gfE" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
